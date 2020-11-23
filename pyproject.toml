@@ -8,6 +8,10 @@ authors = ["Roman Glushko <roman.glushko.m@gmail.com>"]
 python = "^3.7"
 pandas = "^1.1.4"
 ipykernel = "^5.3.4"
+scikit-learn = "^0.23.2"
+numpy = "^1.19.4"
+seaborn = "^0.11.0"
+matplotlib = "^3.3.3"
 
 [tool.poetry.dev-dependencies]
 
