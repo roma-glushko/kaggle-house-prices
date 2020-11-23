@@ -14,8 +14,8 @@ Competition Link: https://www.kaggle.com/c/house-prices-advanced-regression-tech
     * Shape [LotShape]
     * Flatness [LandContour] and slope [LandSlope]
     * Utilities (Gas, water, septic) [Utilities]
-    * Overral Material and Finish Quality Rate [OverallQual]
-    * Overral Condition Rate [OverallCond]
+    * Overall Material and Finish Quality Rate [OverallQual]
+    * Overall Condition Rate [OverallCond]
     * ? [LotConfig]
 * House Access
     * Road Access [Street] [LotFrontage]
