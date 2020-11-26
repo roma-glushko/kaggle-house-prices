@@ -37,14 +37,16 @@ Competition Link: https://www.kaggle.com/c/house-prices-advanced-regression-tech
     * Masonry Veneer Type [MasVnrType]
     * Masonry Veneer Area [MasVnrArea]
 * Basement
-    * Foundation Type (stone, wood, etc) [Foundation]
     * Basement Quality [BsmtQual]
     * Basement Condition [BsmtCond]
     * Basement Exposure [BsmtExposure]
     * Basement finished area rating (1 or 2) [BsmtFinType1][BsmtFinType2]
     * Basement Finished area (1 or 2) [BsmtFinSF1] [BsmtFinSF2]
+    * Basement Full Bathroom [BsmtFullBath]
+    * Basement Half Bathroom [BsmtHalfBath]
     * Basement Unfinished Area [BsmtUnfSF]
     * Total Basement Area [TotalBsmtSF]
+    * Foundation Type (stone, wood, etc) [Foundation]
 * Heating
     * Heating Type [Heating]
     * Heating Quality and Condition Rate [HeatingQC]
@@ -57,8 +59,6 @@ Competition Link: https://www.kaggle.com/c/house-prices-advanced-regression-tech
 * ? [LowQualFinSF]
 * Above Ground Living Area [GrLivArea]
 * Bathroom
-    * Basement Full Bathroom [BsmtFullBath]
-    * Basement Half Bathroom [BsmtHalfBath]
     * Full bathroom above grade [FullBath]
     * Half bathroom above grade [HalfBath]
 * Bedroom
