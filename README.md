@@ -40,7 +40,7 @@ Competition Link: https://www.kaggle.com/c/house-prices-advanced-regression-tech
     * Foundation Type (stone, wood, etc) [Foundation]
     * Basement Quality [BsmtQual]
     * Basement Condition [BsmtCond]
-    * Basement Exposure [BsmtExposure] https://adampillmore.wordpress.com/2010/02/15/basements/#:~:text=A%20walkout%20lot%20has%20at,the%20rear%20of%20the%20home.&text=A%20garden%2Dlevel%20lot%20is,necessary%20for%20a%20walkout%20condition.
+    * Basement Exposure [BsmtExposure]
     * Basement finished area rating (1 or 2) [BsmtFinType1][BsmtFinType2]
     * Basement Finished area (1 or 2) [BsmtFinSF1] [BsmtFinSF2]
     * Basement Unfinished Area [BsmtUnfSF]
