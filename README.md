@@ -5,12 +5,13 @@ Competition Link: https://www.kaggle.com/c/house-prices-advanced-regression-tech
 ## Given Information
 
 ## Given Information
+
 * House Properties
     * Construction Date [YearBuilt]
     * Remodeling Date [YearRemodAdd]
     * Dwelling Class [BldgType] and Subclass [MSSubClass]
     * House Style [HouseStyle]
-    * Area (sq. feets) [LotArea]
+    * Area (sq. feet) [LotArea]
     * Shape [LotShape]
     * Flatness [LandContour] and slope [LandSlope]
     * Utilities (Gas, water, septic) [Utilities]
@@ -22,7 +23,7 @@ Competition Link: https://www.kaggle.com/c/house-prices-advanced-regression-tech
     * Alley Access [Alley]
     * House Road Connection [LotFrontage]
 * House Location
-    * Neighborhood (Phisical Location) [Neighborhood]
+    * Neighborhood (Physical Location) [Neighborhood]
     * Zoning classification [MSZoning] (https://www.investopedia.com/terms/z/zoning.asp#:~:text=Zoning%20allows%20local%20governments%20to,among%20other%20more%20specific%20designations.)
     * Location Conditions (1 or 2) [Condition1][Condition2]
 * Roof Properties
