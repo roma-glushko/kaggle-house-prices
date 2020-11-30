@@ -18,6 +18,8 @@ Competition Link: https://www.kaggle.com/c/house-prices-advanced-regression-tech
     * Overall Material and Finish Quality Rate [OverallQual]
     * Overall Condition Rate [OverallCond]
     * ? [LotConfig]
+    * Is Central Air Condition? [CentralAir]
+    * Electrical System Type [Electrical]
 * House Access
     * Road Access [Street] [LotFrontage]
     * Alley Access [Alley]
@@ -50,9 +52,6 @@ Competition Link: https://www.kaggle.com/c/house-prices-advanced-regression-tech
 * Heating
     * Heating Type [Heating]
     * Heating Quality and Condition Rate [HeatingQC]
-* Air Condition
-    * Is Central Air Condition? [CentralAir]
-* Electrical System Type [Electrical]
 * Floors
     *  First Floor Area [1stFlrSF]
     * Second Floor Area [2ndFlrSF]
