@@ -1,5 +1,24 @@
 # Experiment Notes
 
+## Feature Selection & Engineering
+
+Checked Features:
+
+* LotConfig (MSE: -15M, MAE: -137)
+* ExterCond (MSE: -1.3M, MAE: -10)
+* ExterQualEnc (MSE: -5.5M, MAE: -15)
+* HeatingQC (MSE: -2.2M, MAE: -24)
+* Functional (MSE: -450k, MAE: -3)
+* YearBuilt (MSE: -14M, MAE: -50)
+* PavedDriveEnc (worse)
+
+Engineered Features:
+
+* TotalBathrooms (better)
+* IsPavedDrive (worse)
+* OverallHouseQCBin (worse)
+* IsNeighborhoodElite (worse)
+
 ## Hyperparm Tuning
 
 ### XGBoost Model
