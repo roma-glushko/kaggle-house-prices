@@ -14,10 +14,14 @@ Checked Features:
 
 Engineered Features:
 
-* TotalBathrooms (better)
-* IsPavedDrive (worse)
-* OverallHouseQCBin (worse)
-* IsNeighborhoodElite (worse)
+* HasShed (worse, XGB: 0.0065791644, RF: 0.0003654426530005441)
+* HasPool (better, XGB: 0.006783548(top10), RF: 0.0003874017942213512(not important))
+* TotalBathrooms (better, XGB: 0.005795435(top10), RF: 0.005043641287197288(top5))
+* IsPavedDrive (worse; XGB: 0.0067440225 (top10), RF: 0.0003963073664015703(not important))
+* OverallHouseQCBin (worse; XGB: 0.007891453 (top10), RF: 0.0003494253311946518(not important))
+* IsNeighborhoodElite (worse, XGB: 0.0068460926 (top10), RF: 0.0003281009715582827(not important))
+* YearBuiltBins (worse; XGB: 0.007988054 (top10), RF: 0.0003448870376803348(not important))
+* KitchenQCBin (worse; XGB: 0.0067343363 (top10), RF: 0.0003830128428200478(not imp))
 
 ## Hyperparm Tuning
 
