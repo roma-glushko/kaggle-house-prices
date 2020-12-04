@@ -7,21 +7,43 @@ Checked Features:
 * LotConfig (MSE: -15M, MAE: -137)
 * ExterCond (MSE: -1.3M, MAE: -10)
 * ExterQualEnc (MSE: -5.5M, MAE: -15)
-* HeatingQC (MSE: -2.2M, MAE: -24)
+* HeatingQC (worse, XGB: 0.009494662, RF: 0.023808127498479638(top11))
 * Functional (MSE: -450k, MAE: -3)
 * YearBuilt (MSE: -14M, MAE: -50)
 * PavedDriveEnc (worse)
+* ExterCondEnc (worse, XGB: 0.006350462, RF: 0.003081121534818516)
+* ExterQualEnc (better on XGB, XGB: 0.07274425 (2nd), RF: 0.08696326852520005(top3))
+* FenceEnc (worse, XGB: 0.0050089965, RF: 0.004011815652303977)
+* SaleTypeEnc (better on XGB, XGB: 0.007627788872184359, RF: 0.007627788872184359)
 
 Engineered Features:
 
-* HasShed (worse, XGB: 0.0065791644, RF: 0.0003654426530005441)
-* HasPool (better, XGB: 0.006783548(top10), RF: 0.0003874017942213512(not important))
-* TotalBathrooms (better, XGB: 0.005795435(top10), RF: 0.005043641287197288(top5))
-* IsPavedDrive (worse; XGB: 0.0067440225 (top10), RF: 0.0003963073664015703(not important))
-* OverallHouseQCBin (worse; XGB: 0.007891453 (top10), RF: 0.0003494253311946518(not important))
-* IsNeighborhoodElite (worse, XGB: 0.0068460926 (top10), RF: 0.0003281009715582827(not important))
-* YearBuiltBins (worse; XGB: 0.007988054 (top10), RF: 0.0003448870376803348(not important))
-* KitchenQCBin (worse; XGB: 0.0067343363 (top10), RF: 0.0003830128428200478(not imp))
+* HouseAge (better on XGB, XGB: 0.007173462, RF: 0.06902209972870232 (top6))
+* IsHeatingGood (worse, XGB: 0.009311837, RF: 0.0009598728451529802)
+* IsFunctional (XGB: 0.0075995293, RF: 0.0017536763182931518)
+* FunctionalGroup (better on XGB, XGB: 0.0075995293, RF: 0.0019032972545861358)
+* HasFireplace (better, XGB: 0.049419753(top4), RF: 0.03368059526732552 (top10))
+* Has2ndFloor (worse, XGB: 0.0, RF: 0.005902033492007415)
+* HasShed (worse, XGB: 0.0040862192, RF: 0.0005317727959454998)
+* HasPool (worse, XGB: 0.006932362, RF: 0.0022129987865685654)
+* TotalBathrooms (better, XGB: 0.06028449(top3), RF: 0.06470293879494333 (top4))
+* IsPavedDrive (worse; XGB: 0.008439384, RF: 0.002228173854555795)
+* OverallHouseQCBin (worse; XGB: 0.021698037(top9), RF: 0.04860585701454716)
+* IsNeighborhoodElite (worse, XGB: 0.0063309437, RF: 0.013367967603213125)
+* YearBuiltBins (worse; XGB: 0.008516163, RF: 0.046843703819147264)
+* KitchenQCBin (worse; XGB: 0.00507539, RF: 0.02899681308591065)
+* IsModernHouseType (worse, XGB: 0.0056375926, RF: 0.015248809163328684)
+
+Features with little importance:
+
+- Neighborhood_Blueste
+- MSSubClass_150
+- Condition2_RRNe
+- Condition2_RRAn
+- Condition2_RRAe
+- Condition2_PosN
+- Condition2_PosA
+- Condition1_RRNe
 
 ## Hyperparm Tuning
 
