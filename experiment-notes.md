@@ -5,8 +5,6 @@
 Checked Features:
 
 * LotConfig (MSE: -15M, MAE: -137)
-* ExterCond (MSE: -1.3M, MAE: -10)
-* ExterQualEnc (MSE: -5.5M, MAE: -15)
 * HeatingQC (worse, XGB: 0.009494662, RF: 0.023808127498479638(top11))
 * Functional (MSE: -450k, MAE: -3)
 * YearBuilt (MSE: -14M, MAE: -50)
@@ -15,12 +13,15 @@ Checked Features:
 * ExterQualEnc (better on XGB, XGB: 0.07274425 (2nd), RF: 0.08696326852520005(top3))
 * FenceEnc (worse, XGB: 0.0050089965, RF: 0.004011815652303977)
 * SaleTypeEnc (better on XGB, XGB: 0.007627788872184359, RF: 0.007627788872184359)
+* LandContour (better on XGB)
+* MSZoning (better on XGB)
 
 Engineered Features:
 
 * HouseAge (better on XGB, XGB: 0.007173462, RF: 0.06902209972870232 (top6))
 * IsHeatingGood (worse, XGB: 0.009311837, RF: 0.0009598728451529802)
 * IsFunctional (XGB: 0.0075995293, RF: 0.0017536763182931518)
+* IsLandFlat (possibly better on XGB, XGB: 0.005601142, RF: 0.003685766467293613)
 * FunctionalGroup (better on XGB, XGB: 0.0075995293, RF: 0.0019032972545861358)
 * HasFireplace (better, XGB: 0.049419753(top4), RF: 0.03368059526732552 (top10))
 * Has2ndFloor (worse, XGB: 0.0, RF: 0.005902033492007415)
@@ -33,6 +34,9 @@ Engineered Features:
 * YearBuiltBins (worse; XGB: 0.008516163, RF: 0.046843703819147264)
 * KitchenQCBin (worse; XGB: 0.00507539, RF: 0.02899681308591065)
 * IsModernHouseType (worse, XGB: 0.0056375926, RF: 0.015248809163328684)
+* IsNewHouseSold (XGB: 0.005251049, RF: 0.004010564395201029)
+* IsExterQualGood (better on XGB, XGB: 0.038813863 (top5), RF: 0.0004267454083208078)
+* IsExterCondGood (worse, XGB: 0.015417073 (top13), RF: 0.0006292433208515044)
 
 Features with little importance:
 
