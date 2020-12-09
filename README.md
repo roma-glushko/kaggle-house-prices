@@ -1,4 +1,4 @@
-# Kaggle Competition: House Price
+# Kaggle Competition: Ames House Sale Price
 
 <img style="height: 450px" src="https://livability.com/sites/default/files/151SUBAME031.jpg" />
 
