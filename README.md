@@ -1,98 +1,22 @@
 # Kaggle Competition: House Price
 
+<img style="height: 450px" src="https://livability.com/sites/default/files/151SUBAME031.jpg" />
+
+This repository contains explanatory data analysis and modeling of Ames house sale prices.
+<a href="http://jse.amstat.org/v19n3/decock.pdf">Ames house database</a> is sale history of almost 2000 houses that were sold in Ames, Iowa from 2008 to 2010. Each lot is represented by 80 features that describe all aspects of the house:
+
+- Living area, floor areas, number of rooms, frontage, etc
+- Neighborhood and Zoning
+- Roof, masonry veneer, exterior properties
+- Basement and fundament properties
+- Air condition, heating, electrical properties
+- Kitchen and bathroom properties
+- Garage, porch, fireplace, fence, pool, wood deck properties
+
 Competition Link: https://www.kaggle.com/c/house-prices-advanced-regression-techniques
 
-## Given Information
+## Content
 
-## Given Information
-
-* House Properties
-    * Construction Date [YearBuilt]
-    * Remodeling Date [YearRemodAdd]
-    * Dwelling Class [BldgType] and Subclass [MSSubClass]
-    * House Style [HouseStyle]
-    * Area (sq. feet) [LotArea]
-    * Shape [LotShape]
-    * Flatness [LandContour] and slope [LandSlope]
-    * Utilities (Gas, water, septic) [Utilities]
-    * Overall Material and Finish Quality Rate [OverallQual]
-    * Overall Condition Rate [OverallCond]
-    * ? [LotConfig]
-    * Is Central Air Condition? [CentralAir]
-    * Electrical System Type [Electrical]
-* House Access
-    * Road Access [Street] [LotFrontage]
-    * Alley Access [Alley]
-    * House Road Connection [LotFrontage]
-* House Location
-    * Neighborhood (Physical Location) [Neighborhood]
-    * Zoning classification [MSZoning] (https://www.investopedia.com/terms/z/zoning.asp#:~:text=Zoning%20allows%20local%20governments%20to,among%20other%20more%20specific%20designations.)
-    * Location Conditions (1 or 2) [Condition1][Condition2]
-* Roof Properties
-    * Roof Style [RoofStyle]
-    * Roof Material [RoofMatl]
-* Exterior
-    * Exterior Covering (1 or 2 materials) [Exterior1st] [Exterior2nd]
-    * Exterior Material Quality [ExterQual]
-    * Exterior Material Condition [ExterCond]
-* Masonry veneer
-    * Masonry Veneer Type [MasVnrType]
-    * Masonry Veneer Area [MasVnrArea]
-* Basement
-    * Basement Quality [BsmtQual]
-    * Basement Condition [BsmtCond]
-    * Basement Exposure [BsmtExposure]
-    * Basement finished area rating (1 or 2) [BsmtFinType1][BsmtFinType2]
-    * Basement Finished area (1 or 2) [BsmtFinSF1] [BsmtFinSF2]
-    * Basement Full Bathroom [BsmtFullBath]
-    * Basement Half Bathroom [BsmtHalfBath]
-    * Basement Unfinished Area [BsmtUnfSF]
-    * Total Basement Area [TotalBsmtSF]
-    * Foundation Type (stone, wood, etc) [Foundation]
-* Heating
-    * Heating Type [Heating]
-    * Heating Quality and Condition Rate [HeatingQC]
-* Floors
-    *  First Floor Area [1stFlrSF]
-    * Second Floor Area [2ndFlrSF]
-* ? [LowQualFinSF]
-* Above Ground Living Area [GrLivArea]
-* Bathroom
-    * Full bathroom above grade [FullBath]
-    * Half bathroom above grade [HalfBath]
-* Bedroom
-    * Bedroom above grade (w/o basement bedrooms) [BedroomAbvGr]
-* Kitchen
-    * Kitchen Above Grade [KitchenAbvGr]
-    * Kitchen Quality [KitchenQual]
-* Total Rooms above grade (w/o bathrooms) [TotRmsAbvGrd]
-* Home Functionality [Functional]
-* Fireplaces
-    * Number of fireplaces [Fireplaces]
-    * Fireplace Quality [FireplaceQu]
-* Garage
-    * Garage Type [GarageType]
-    * Year Garage was built [GarageYrBlt]
-    * Interior Finish of the garage [GarageFinish]
-    * Garage Size (in cars) [GarageCars]
-    * Garage Area [GarageArea]
-    * Garage Quality [GarageQual]
-    * Garage Condition [GarageCond]
-* Paved driveway (paved, dirt, etc) [PavedDrive]
-* Porch
-    * Wood Deck Area [WoodDeckSF]
-    * Open Porch Area (in sq ft) [OpenPorchSF]
-    * Enclosed Porch Area [EnclosedPorch]
-    * 3 seasons porch area [3SsnPorch]
-    * Screen Porch area [ScreenPorch]
-* Pool
-    * Pool area [PoolArea]
-    * Pool Quality [PoolQC]
-* Miscellaneous Features (elevator, 2nd garage, etc) [MiscFeature]
-    * Miscellaneous Features Value in $ [MiscVal]
-* Fence [Fence]
-* Sale Information
-    * Month Sold [MM]
-    * Year Sold [YYYY]
-    * Sale Type (Warranty Deed, new, etc) [SaleType]
-    * Sale Condition (family sale, normal sale, etc) [SaleCondition]
+- index.ipynb - a domain-driven explanatory data analysis with a focus on feature meaning and value
+- baseline-model.ipynb - a baseline modeling of house sale price using LinearRegression
+- model.ipynb - house price modeling using XGBoost applied on various engineered features
