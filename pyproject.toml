@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "house-prices-advanced-regression-techniques"
+name = "house-prices"
 version = "0.1.0"
 description = ""
 authors = ["Roman Glushko <roman.glushko.m@gmail.com>"]
