@@ -15,6 +15,7 @@ matplotlib = "^3.3.3"
 scikit-optimize = "^0.8.1"
 xgboost = "^1.2.1"
 plotly = "^4.14.0"
+shap = "^0.37.0"
 
 [tool.poetry.dev-dependencies]
 
