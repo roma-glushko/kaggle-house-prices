@@ -16,6 +16,7 @@ scikit-optimize = "^0.8.1"
 xgboost = "^1.2.1"
 plotly = "^4.14.0"
 shap = "^0.37.0"
+eli5 = "^0.10.1"
 
 [tool.poetry.dev-dependencies]
 
