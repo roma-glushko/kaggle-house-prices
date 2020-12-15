@@ -515,9 +515,9 @@ SaleType: Type of sale
 		
 SaleCondition: Condition of sale
 
-       Normal	Normal Sale
+       Normal	       Normal Sale
        Abnorml	Abnormal Sale -  trade, foreclosure, short sale
        AdjLand	Adjoining Land Purchase
-       Alloca	Allocation - two linked properties with separate deeds, typically condo with a garage unit	
-       Family	Sale between family members
+       Alloca	       Allocation - two linked properties with separate deeds, typically condo with a garage unit	
+       Family	       Sale between family members
        Partial	Home was not completed when last assessed (associated with New Homes)
