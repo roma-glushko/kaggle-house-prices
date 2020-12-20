@@ -20,3 +20,8 @@ Competition Link: https://www.kaggle.com/c/house-prices-advanced-regression-tech
 - index.ipynb - a domain-driven explanatory data analysis with a focus on feature meaning and value
 - baseline-model.ipynb - a baseline modeling of house sale price using LinearRegression
 - model.ipynb - house price modeling using XGBoost applied on various engineered features
+
+## Kaggle
+
+- https://www.kaggle.com/glushko/house-prices-domain-driven-eda-part-i - EDA (Part I)
+- https://www.kaggle.com/glushko/house-prices-regression-modelling-part-ii - Modelling (Part II)
